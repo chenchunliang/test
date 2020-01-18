@@ -14,14 +14,14 @@ $rs=$pdo->select("admin",$where);//資料表，條件式
 echo "<p>1.只抓第1筆資料：「".$rs[1]['admin_name']."」</p>";//只抓第1筆資料
 
 //顯示所有查詢結果
-/*echo "<p>2.ssss顯示所有查詢結果：</p>";
+echo "<p>2.ssss顯示所有查詢結果：</p>";
 echo "「";
 foreach($rs as $key){ //rs 2D => $key 1D
 echo "<p>".$key['admin_name'].":".$key['admin_account']."，".$key['admin_password']."</p>";
 }
 echo "」";
 echo $pdo->error();
-
+/*
 */
 //**********************************************
 
